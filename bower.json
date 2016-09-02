@@ -1,19 +1,19 @@
 {
-  "name": "bitcore-message",
-  "main": "./bitcore-message.min.js",
+  "name": "litecore-message",
+  "main": "./litecore-message.min.js",
   "version": "1.0.2",
-  "homepage": "https://github.com/bitpay/bitcore-message",
+  "homepage": "https://github.com/litecoin-project/litecore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Bitcoin Message Verification and Signing for Bitcore",
+  "description": "Litecoin Message Verification and Signing for Litecore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "bitcoin",
-    "bitcore",
-    "btc",
+    "litecoin",
+    "litecore",
+    "ltc",
     "satoshi",
     "message",
     "signing"
