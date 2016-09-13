@@ -1,6 +1,6 @@
 {
   "name": "litecore-message",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Litecoin Messages for Litecore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
