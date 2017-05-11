@@ -1,6 +1,6 @@
 {
   "name": "litecore-message",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Litecoin Messages for Litecore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -23,7 +23,7 @@
     "url": "https://github.com/litecoin-project/litecore-message.git"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.19"
+    "litecore-lib": "^0.13.22"
   },
   "devDependencies": {
     "litecore-build": "litecoin-project/litecore-build",
