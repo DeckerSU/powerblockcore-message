@@ -1,32 +1,32 @@
-<img src="http://bitcore.io/css/images/module-message.png" alt="litecore message" height="35">
-# Litecoin Message Verification and Signing for Litecore
+<img src="http://bitcore.io/css/images/module-message.png" alt="powerblockcore message" height="35">
+# Powerblockcoin Message Verification and Signing for Powerblockcore
 
 
-[![NPM Package](https://img.shields.io/npm/v/litecore-message.svg?style=flat-square)](https://www.npmjs.org/package/litecore-message)
-[![Build Status](https://img.shields.io/travis/litecoin-project/litecore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-message)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-message.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-message?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/powerblockcore-message.svg?style=flat-square)](https://www.npmjs.org/package/powerblockcore-message)
+[![Build Status](https://img.shields.io/travis/powerblockcoin-project/powerblockcore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/powerblockcoin-project/powerblockcore-message)
+[![Coverage Status](https://img.shields.io/coveralls/powerblockcoin-project/powerblockcore-message.svg?style=flat-square)](https://coveralls.io/r/powerblockcoin-project/powerblockcore-message?branch=master)
 
-litecore-message adds support for verifying and signing litecoin messages in [Node.js](http://nodejs.org/) and web browsers.
+powerblockcore-message adds support for verifying and signing powerblockcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main litecore repo](https://github.com/litecoin-project/litecore) for more information.
+See [the main powerblockcore repo](https://github.com/powerblockcoin-project/powerblockcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install litecore-message
+npm install powerblockcore-message
 ```
 
 ```sh
-bower install litecore-message
+bower install powerblockcore-message
 ```
 
 To sign a message:
 
 ```javascript
-var litecore = require('litecore-lib');
-var Message = require('litecore-message');
+var powerblockcore = require('powerblockcore-lib');
+var Message = require('powerblockcore-message');
 
-var privateKey = litecore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+var privateKey = powerblockcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -40,12 +40,12 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/litecoin-project/litecore/blob/master/CONTRIBUTING.md) on the main litecore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/powerblockcoin-project/powerblockcore/blob/master/CONTRIBUTING.md) on the main powerblockcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/litecore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/powerblockcoin-project/powerblockcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2016 The Litecoin Core Developers
+Copyright 2016 The Powerblockcoin Core Developers
 

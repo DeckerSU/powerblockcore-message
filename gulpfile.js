@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var litecoreTasks = require('litecore-build');
+var litecoreTasks = require('powerblockcore-build');
 
 litecoreTasks('message');
 
